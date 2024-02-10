@@ -931,10 +931,13 @@ a:hover {
 .work-img {
   display: block;
   overflow: hidden;
+  width: 26rem;
+  height: 13rem;
 }
 
 .work-img img {
   transition: all 1s;
+  object-fit: cover;
 }
 
 .work-content {
